@@ -1,33 +1,54 @@
 # GitInfo
 The resources used in Git.
 Git & GitHub.
+
 Git: It is basically used for Working directory.
 GitHub: It is used for remote repositiory.
 
 Hide your credentials.
+
 .gitignore
 
 Inside Git to Staging area.
 Go to your directory.
-git init
-git add . or git add <specific file>
-git commit -m "your message"
-............up to Local Directory.
+
+Git log info:
+
+----git log
+
+Git status
+
+----git status
+
+-----git init
+
+-----git add . or git add <specific file>
+  
+-----git commit -m "your message"
+  
+up to Local Directory.
   
 Removing all files after commit:
-git rm --cached -r
+
+-----git rm --cached -r
 
 
 To push for remote repository you need to create new repo in GitHub.
-git add remote "git clone address".
-git branch -M main
-git push origin main
+  
+-----git remote add origin <git clone address>.
+  
+-----git branch -M main
+  
+------git push origin main
+  
 
 Create branch.
-git branch <branch name>
+
+-------git branch <branch name>
 
 Switch between branches.
-git checkout <branch name>
+
+------git checkout <branch name>
   
 Merge branch.
 Select main branch.Pulling.
